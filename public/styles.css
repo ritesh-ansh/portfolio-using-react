@@ -1,0 +1,199 @@
+:root {
+  --main-color: #351f39;
+  --secondary-color: #726a95;
+}
+
+/* fonts */
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Dancing Script', cursive; */
+/* font-family: 'Open Sans', sans-serif; */
+
+/* fonts end  */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #202020;
+}
+
+/* Home background */
+
+.header {
+  background: url("../img/bg-masthead.jpg") no-repeat fixed;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  filter: brightness(70%);
+}
+
+/* Navbar Styling */
+
+.navbar .brand-text {
+  font-size: 2.5rem;
+}
+.navbar .navbar-brand {
+  font-family: "Dancing Script", cursive;
+  font-size: 1.5rem;
+  padding-left: 1.5rem;
+  /* font-weight: bold; */
+}
+
+.navbar .collapse .nav-item {
+  padding: 0 1.5rem;
+}
+.navbar .collapse {
+  font-family: cursive;
+  font-size: 1.3rem;
+}
+
+.navbar .navbar-elements {
+  padding: 0 1.5rem;
+  margin: 0px 10px;
+  font-size: 1.2rem;
+}
+
+.navbar .nav-link:hover {
+  transition: colour 0.3s easy !important;
+  color: whitesmoke !important;
+}
+
+.navbar .nav-item {
+  padding: 0 1.5rem;
+}
+/* Intro */
+
+.header {
+  position: relative;
+}
+.header-text {
+  padding: 30% 20% 20% 8%;
+  margin-left: 20%;
+  filter: brightness(200%);
+  color: #000000 !important;
+}
+.header-text .header-span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.header-text .header-name {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5rem;
+  font-weight: 700;
+  /* color: #6e7c7c; */
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* About Section */
+
+#about {
+  margin-bottom: 5%;
+}
+
+.about-div .about-img {
+  position: relative;
+  border-radius: 80%;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  left: 10%;
+  top: 10%;
+}
+
+.about-div .about-info {
+  margin-top: 5%;
+  padding: 5% 2%;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  /* margin: 10px; */
+  line-height: 3;
+}
+
+@media (max-width: 991px) {
+  #about .about-div {
+    margin: auto;
+  }
+
+  .about-img {
+    position: static !important;
+    border-radius: 5% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+}
+
+/* Project Section */
+
+/* CTA */
+
+.cta-div {
+  background-color: rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 2% 5% 5% 5%;
+}
+
+.cta-text {
+  color: #969696;
+  line-height: 1.7;
+  word-spacing: 8px;
+  font-family: cursive;
+  font-size: 2.5rem;
+}
+
+.git-line {
+  color: whitesmoke;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5rem;
+  font-family: "Dancing Script", cursive;
+}
+.cta-icon-div {
+  padding-top: 10px;
+  margin: 3%;
+}
+
+.cta-icons {
+  position: relative;
+  color: whitesmoke;
+  padding-left: 2%;
+  margin: 15px;
+}
+.cta-icons:hover {
+  transition: colour 0.3s easy !important;
+  transition: translateY(-10px) !important ;
+  color: #000000 !important;
+}
+
+@media (max-width: 991px) {
+  .cta-icons {
+    padding: 0 3%;
+    margin: auto;
+  }
+  .cta-text {
+    font-size: 2rem;
+  }
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.2); */
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+.footer-div {
+  color: whitesmoke;
+}
+
+.footer-text {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.3rem;
+}
